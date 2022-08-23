@@ -1,128 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
 
-<body>
-  <header class="header">
-
-  <div class="pic">
-    <!-- me -->
-      <img src="./assets/images/picture-of-me.jpeg" alt ="picture of me">
-      
-  </div>
-      <nav class ="navbar">
-        
-        <a href="https://drive.google.com/file/d/1FgG19anbTbSbxAVGYvn3to2aGXxQfaVV/view?usp=sharing"target="_blank"> <i class="fas fa-address-book" ></i><span> Resume</span></a>
-      </nav>
-      <article class="soft-skills">         
-          <div class="box">
-            <h3>Soft Skills</h3>
-            <p>Communicator </p>
-            <p>Empathetic</p>
-            <p>Organizer</p>
-            <p>Problem Solver</p>
-            <p>Listener</p>
-            <p>Independent Worker</p>
-            <p>Team Player</p>
-            <p>Collaborator</p>
-          </div>
-      </article>
-  </header>
-
-  <div id="menu-btn" class="fas fa-bars"></div>
-
-  <section class="home aboutme" id="home aboutme">
-    <h1 class="heading"><span>Anne</span>Linger</h1>
-    <h2>FullStack Developer</h2>
-    <div class="share">
-      <a href="https://github.com/amccorkl" target="_blank" class="fab fa-github"></a>
-      <a href="www.linkedin.com/in/anne-mccorkle" target="_blank" class="fab fa-linkedin"></a>
-      <a href="mailto:annefmccorkle@gmail.com" target="_blank" class="fas fa-envelope"></a>
-    </div>
-
-  </section>
-
-<!-- About section -->
-  <section class="about" id="about">
-      <div class="row">
-          <div class="content">
-              <!-- <h3>My name is <span>Anne Linger</span></h3> -->
-            <p> I am a 20 year veteran teacher, instructional coach, problem solver, and now creator of code. I thrive off of pushing myself and helping others. This foray into full stack coding provides ample opportunities for growth. I can't wait to join an organization that helps support people through IT and software development.  
-            </p>
-          </div>
-          <div class="box-container">
-            <div class="box">
-              <h3>Coding Skills</h3>
-              <p>JavaScript </p>
-              <p>Express.js </p>
-              <p>Node.js </p>
-              <p>Git</p>
-              <p>Heroku</p>
-              <p>Sequelize</p>
-              <p>Mongodb and Mongoose</p>
-              <p>React</p>
-            </div>
-            <div class="box">
-              <h3>Education</h3>
-              <!-- <ul class="ul-edu">  -->
-                <p>~ Fullstack Bootcamp at the University of Denver</p>
-                <p>~ Master's in Educational Leadership and Management (principal license)</p>
-                <p>~ Master's in History</p>
-            </div>
-          </div>
+  <body>
+    <header class="header">
+      <div class="pic">
+        <!-- me -->
+        <img src="./assets/images/picture-of-me.jpeg" alt="picture of me" />
       </div>
-  </section>
+      <nav class="navbar">
+        <a
+          href="https://drive.google.com/file/d/1FgG19anbTbSbxAVGYvn3to2aGXxQfaVV/view?usp=sharing"
+          target="_blank"
+        >
+          <i class="fas fa-address-book"></i>
+          <span>Resume</span>
+        </a>
+      </nav>
+      <aside class="soft-skills">
+        <div class="box">
+          <h3>Soft Skills</h3>
+          <p>Communicator</p>
+          <p>Empathetic</p>
+          <p>Organizer</p>
+          <p>Problem Solver</p>
+          <p>Listener</p>
+          <p>Independent Worker</p>
+          <p>Team Player</p>
+          <p>Collaborator</p>
+        </div>
+      </aside>
+    </header>
 
-  <!-- Portifolio section -->
+    <!-- used for small size screens -->
+    <div id="menu-btn" class="fas fa-bars"></div>
 
-  <section class="portfolio" id="portfolio">
+    <section class="intro">
+      <h1 class="heading">
+        <span>Anne</span>
+        Linger
+      </h1>
+      <h2>FullStack Developer</h2>
+      <div class="links-me">
+        <a
+          href="https://github.com/amccorkl"
+          target="_blank"
+          class="fab fa-github"
+        ></a>
+        <a
+          href="www.linkedin.com/in/anne-mccorkle"
+          target="_blank"
+          class="fab fa-linkedin"
+        ></a>
+        <a
+          href="mailto:annefmccorkle@gmail.com"
+          target="_blank"
+          class="fas fa-envelope"
+        ></a>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <div class="row">
+        <div class="content">
+          <!-- <h3>My name is <span>Anne Linger</span></h3> -->
+          <p>
+            I am a 20 year veteran teacher, instructional coach, problem solver,
+            and now creator of code. I thrive off of pushing myself and helping
+            others. This foray into full stack coding provides ample
+            opportunities for growth. I can't wait to join an organization that
+            helps support people through IT and software development.
+          </p>
+        </div>
+        <div class="box-container">
+          <div class="box">
+            <h3>Coding Skills</h3>
+            <p>JavaScript</p>
+            <p>Express.js</p>
+            <p>Node.js</p>
+            <p>Git</p>
+            <p>Heroku</p>
+            <p>Sequelize</p>
+            <p>Mongodb and Mongoose</p>
+            <p>React</p>
+          </div>
+          <div class="box">
+            <h3>Education</h3>
+            <!-- <ul class="ul-edu">  -->
+            <p>~ Fullstack Bootcamp at the University of Denver</p>
+            <p>
+              ~ Master's in Educational Leadership and Management (principal
+              license)
+            </p>
+            <p>~ Master's in History</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portifolio section -->
+
+    <section class="portfolio" id="portfolio">
       <h1 class="heading">my<span>portfolio</span></h1>
       <div class="box-container">
-        <div class="box">
-          <a href="https://github.com/amccorkl/cache-food-decisions" target="_blank">Cache Food Decisions, Github repo link</a>
-            <img src="./assets/images/login-page.jpeg" alt="login page for the app">
-            <div class="content">
-            <h3>
-              <a href="https://damp-harbor-49836.herokuapp.com/" target="_blank">Cache Food Decisions Heroku link</a>
-            </h3>
+        <div class="cards">
+          <a href="https://damp-harbor-49836.herokuapp.com/"
+          target="_blank"> 
+            <article class="description">
+              <h4 class="app-title">Cache Food Decisions</h4>
+              <p>A user can plan out their meals for the week with recipes and an ingredient shopping list.</p>
+            </article>
+            <img src="./assets/images/login-page.jpeg"
+            alt="login page for the app"/>
+          </a>
         </div>
+
+        <div class="cards">
+          <a href="https://amccorkl.github.io/Concert_Concierge/"
+          target="_blank"> 
+            <article class="description">
+              <h4 class="app-title">Concert Concierge</h4>
+              <p>A user can plan a trip to see music and grab a bite to eat.</p>
+            </article>
+            <img
+              src="./assets/images/concert-concierge.png"
+              alt="app cover page with image of band"
+            />
+          </a>
         </div>
-            <div class="box">
-              <a href="https://github.com/amccorkl/Concert_Concierge" target="_blank">Concert Concierge, Github repo link</a>
-              <img src="./assets/images/concert-concierge.png" alt="app cover page with image of band">
-              <div class="content">
-                <h3><a href="https://amccorkl.github.io/Concert_Concierge/" target="_blank">Concert Concierge</a>
-                </h3>
-              </div>
-            </div>
-            <div class="box">
-              <h2>not available yet</h2>
-              <img src="" alt="">
-              <div class="content">
-                  <h3>
-                <a href="" target="_blank"></a>
-                <a href="" target="_blank">(repo link)</a>
-              </h3>
-              </div>
-            </div>
-            <div class="box">
-              <h2>not avilable yet</h2>
-                <img src="" alt="">
-                <div class="content">
-                    <h3>
-                  <a href="" target="_blank"></a>
-                  <a href="" target="_blank">(repo link)</a>
-                </h3>
-                </div>
-            </div>
+
+        <div class="cards">
+          <a href="" target="_blank"> 
+            <article class="description">
+              <h4 class="app-title">Not Available, placeholder picture only</h4>
+              <p></p>
+            </article>
+            <img src="./assets/images/skateboarder.jpeg" alt="skateboarder in pipeline" />
+          </a>
+        </div>
+
+        <div class="cards">
+          <a href="" target="_blank"> 
+            <article class="description">
+              <h4 class="app-title">Not Available, placeholder picture only</h4>
+              <p></p>
+            </article>
+            <img src="./assets/images/road-thru-forest.jpeg" alt="road through a forest" />
+          </a>
+        </div>
       </div>
-  </section>
-</body>
+    </section>
+  </body>
 </html>
