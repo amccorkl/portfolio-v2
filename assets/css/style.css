@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&family=Inconsolata:wght@300;400&display=swap');
 
 :root {
-  --blue: #3907ef;
+  --blue: #0606f2;
   --black: rgb(56, 55, 55);
   --light-color: rgb(108, 107, 107);
   --bg-color: #dbd9d9;
   --border: 0.1rem solid rgba(0, 0, 0, 0.2);
-  --box-shadow: 0.4rem 0.4rem 0.5rem rgb(138, 136, 136),
+  --box-shadow: 0.4rem 0.4rem 0.8rem rgb(138, 136, 136),
     -0.4rem 0.4rem 0.5rem rgb(50, 49, 49);
-  --box-shadow-inset: 0.4rem 0.4rem 1rem rgb(189, 187, 187) inset,
+  --box-shadow-inset: 0.4rem 0.4rem 0.8rem rgb(189, 187, 187) inset,
     -0.4rem 0.4rem 1rem #fff inset;
 }
 
@@ -39,9 +39,9 @@ body.active {
   --light-color: #ddd;
   --bg-color: #222;
   --border: 0.1rem solid rgba(0, 0, 0, 0.4);
-  --box-shadow: 0.4rem 0.4rem 1rem #111, -0.4rem 0.4rem 1rem #333;
-  --box-shadow-inset: 0.4rem 0.4rem 1rem #111 inset,
-    -0.4rem 0.4rem 1rem #333 inset;
+  --box-shadow: 0.4rem 0.4rem 0.8rem #111, -0.4rem 0.4rem 1rem #333;
+  --box-shadow-inset: 0.4rem 0.4rem 0.8rem #111 inset,
+    -0.4rem 0.4rem .8rem #333 inset;
 }
 
 .intro {
@@ -111,7 +111,7 @@ h2 {
 }
 
 h3 {
-  color: var(--black);
+  color: var(--blue);
   font-size: 2.5rem;
 }
 
@@ -146,7 +146,7 @@ h3 {
   box-shadow: var(--box-shadow-inset);
 }
 
-#menu-btn {
+#aside-btn {
   position: fixed;
   top: 1.5rem;
   left: 2rem;
@@ -163,7 +163,7 @@ h3 {
   display: none;
 }
 
-#menu-btn:hover {
+#aside-btn:hover {
   color: var(--blue);
   box-shadow: var(--box-shadow-inset);
 }
@@ -181,12 +181,6 @@ h3 {
   color: var(--black);
   line-height: 1.1;
   text-transform: uppercase;
-}
-
-.content p {
-  font-size: 2rem;
-  color: var(--blue);
-  padding-bottom: 0.5rem;
 }
 
 .links-me {
@@ -273,7 +267,7 @@ h3 {
   gap: 2rem;
 }
 
-.portfolio .box-container .cards {
+ .box-container .cards {
   height: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -282,22 +276,10 @@ h3 {
   border: 1rem solid transparent;
 }
 
-.portfolio .box-container .cards img {
+ .box-container .cards img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-}
-
-.portfolio .box-container .cards .content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: var(--bg-color);
-  display: grid;
-  place-items: center;
-  transform: scale(0);
 }
 
 .app-title {
