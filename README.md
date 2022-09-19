@@ -1,4 +1,4 @@
-# Anne McCorkle Portfolio 
+# Anne Linger Portfolio 
 
 ## Link 
 [Portfolio Link](https://amccorkl.github.io/portfolio-v2/)
