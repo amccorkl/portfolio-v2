@@ -4,4 +4,4 @@
 [Portfolio Link](https://amccorkl.github.io/portfolio-v2/)
 
 ## Screenshot
-![Full Screenshot](./assets/images/screenshot-of-portfolio.png)
+![Full Screenshot](./assets/images/screencapture-of-portfolio-project-2025.png)
